@@ -1,8 +1,0 @@
-#!/bin/bash
-
-jekyll build
-cp -r _site/* ../richardcsantana.github.io
-cd ../richardcsantana.github.io
-git add .
-git cm "create new blog entry"
-git ps origin master
