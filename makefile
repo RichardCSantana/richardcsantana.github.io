@@ -4,3 +4,5 @@ install-hooks:
 push-blog:
 	chmod +x build_blog
 	./build_blog
+run-with-drafts:
+	jekyll serve --drafts
